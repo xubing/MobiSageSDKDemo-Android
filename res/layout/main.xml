@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    <LinearLayout android:id="@+id/ads01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"> </LinearLayout>
+		<Button 
+      android:text="ad switch on" 
+      android:id="@+id/adon" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_below="@+id/adviewtext" 
+      android:layout_alignParentLeft="true" 
+      android:layout_marginTop="160dp"></Button>
+      
+      <Button android:text="ad switch off" 
+      android:id="@+id/adoff" 
+      android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:layout_below="@+id/adon" 
+       android:layout_alignParentLeft="true" 
+       android:layout_marginTop="23dp"></Button>
+</LinearLayout>
